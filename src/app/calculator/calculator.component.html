@@ -1,0 +1,35 @@
+<!--<p>calculator works!</p>-->
+<table>
+  <thead>
+  <tr>
+    <th colspan="5"><input id="text" type="text" value=""></th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><button (click)="popUp(7)">7</button></td>
+    <td><button (click)="popUp(8)">8</button></td>
+    <td><button (click)="popUp(9)">9</button></td>
+    <td><button (click)="popUp('/')">/</button></td>
+    <td rowspan="5"><button (click)="res3t()">AC</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="popUp(4)">4</button></td>
+    <td><button (click)="popUp(5)">5</button></td>
+    <td><button (click)="popUp(6)">6</button></td>
+    <td><button (click)="popUp('*')">x</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="popUp(1)">1</button></td>
+    <td><button (click)="popUp(2)">2</button></td>
+    <td><button (click)="popUp(3)">3</button></td>
+    <td><button (click)="popUp('-')">-</button></td>
+  </tr>
+  <tr>
+    <td><button (click)="popUp(0)">0</button></td>
+    <td><button (click)="popUp('.')">.</button></td>
+    <td><button (click)="calculate()">=</button></td>
+    <td><button (click)="popUp('+')">+</button></td>
+  </tr>
+  </tbody>
+</table>
